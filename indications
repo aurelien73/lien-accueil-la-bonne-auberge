@@ -1,0 +1,12 @@
+Bonjour,
+
+La div .contacter correspondante à l’adresse mail et au numéro de téléphone 
+
+et la div footer .logo_sociaux elles sont bien positionnés que ça soit pour du 
+
+1600 * 900 ou du 1920 * 1080 mais il y a du position : relative
+
+Comment bien les positionner avec flexbox ?
+
+Merci
+Aurélien
