@@ -1,0 +1,212 @@
+body
+{
+    background: #F1C40F; 
+    
+}
+
+h1
+{
+    display: inline; 
+    
+    font-size: 35px;
+    
+}
+
+
+#logo
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Verdana", sans-serif;
+    
+    font-weight: bold;
+    color: maroon;
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between; 
+    height: auto;
+}
+
+.premier_nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+
+.premier_nav a 
+{
+    color: maroon;    
+    text-decoration: none;
+    border-bottom: 3px solid #760001;    
+}
+
+li
+{
+    margin: 33px;    
+}
+
+footer .deuxieme_nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: auto;   
+}
+
+.deuxieme_nav a
+{
+    color: maroon;    
+    text-decoration: none;
+    border-bottom: 3px solid #760001;     
+}
+
+.lba /* lien inséré dans le texte labonneauberge@wanadoo.fr */
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer .logo_sociaux 
+{
+    display: flex;
+    
+    width: 290px; 
+    
+    position: relative;
+    top: 80px;
+    left: 100px; /* les mettre à 100 px */
+    
+    
+} 
+.logo_sociaux img
+{
+    margin-right: 20px;
+}
+
+
+
+/*  Texte de l'info-bulle */
+.bulle
+{
+    visibility: hidden;
+    text-align: justify;
+    
+/* Personnalisation de la bordure */
+    border-style: solid;
+    border-color: black;
+    border-width: 13px;
+    
+/* Dimensions de l'info-bulle */ 
+    width: auto;
+    height: auto;
+    
+/* Propriétés intérieures de l'info-bulle */
+    background-color: black;
+    color: white;
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    
+/* Position de l'info-bulle */
+    position: absolute;
+    top: 200px;
+    left: 1440px;
+    
+} 
+
+/* Montrer le contenu de l'info-bulle quand la souris pointe sur le texte mis en forme */
+.reservation:hover .bulle
+{
+    visibility: visible;
+} 
+
+
+
+.presentation
+{
+    font-family: "Verdana", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.lorem
+{
+    font-family: "Verdana", sans-serif;
+    color: maroon;
+    font-weight: bold;
+}
+
+.contacter 
+{
+    
+    width: 292px;
+    height: 49px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    left: 800px;
+    top: 772px;
+    
+}
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1600px */
+@media screen and (max-width: 1600px)
+{
+.contacter
+{
+    position: absolute;
+    top: 848px;
+    left: 680px;
+}    
+
+/* Texte de l'info-bulle du mot réserver du premier paragraphe */
+.bulle
+{
+    visibility: hidden;
+    text-align: justify;
+    
+/* Personnalisation de la bordure */
+    border-style: solid;
+    border-color: black;
+    border-width: 13px;
+    
+/* Dimensions de l'info-bulle */
+    width: auto;
+    height: auto;
+    
+/* Propriétés intérieures de l'info-bulle */
+    background-color: black;
+    color: white;
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    
+/* Position de l'info-bulle */
+    position: absolute;
+    top: 200px;
+    left: 1150px;
+    
+}
+/* Montrer le contenu de l'info-bulle quand la souris pointe sur le texte mis en forme */
+.reservation:hover .bulle
+{
+    visibility: visible;
+}
+
+}    
+
+.lba /* lien inséré dans le texte labonneauberge@wanadoo.fr */
+{
+    text-decoration: none;
+    color: black;
+}
+    
